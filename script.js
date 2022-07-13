@@ -96,3 +96,48 @@
 // function FadeOutDiv(){
 //     $(".red").fadeOut(3000);
 // }
+
+
+
+
+
+
+
+
+
+//Learn 09
+// function FadeOutDiv(){
+//     $(".red").fadeOut(3000).fadeIn();
+// }
+
+
+
+
+
+
+// function Action(){
+//     // $("span.data.red[name='test']").hide();
+//     $("[name='test']").hide();
+// }
+
+
+
+
+
+
+
+
+// $("#test").on("click", function(){
+//     $("span").hide();
+// });
+
+
+
+
+$("button#test").on("click", function(){
+    $("span").hide();
+});
+
+$("button:not(#test)").on("click", function(){
+    $("span").show();
+});
