@@ -71,14 +71,25 @@
 
 
 
-
-
-
+//Back to HTML
 // Learn 10
 // function AlertData(){
 //     var $data = "Hello " + $(".fUllName").val();
 
-//     $("span").append($data);
+//     $("#test").html($data);
+// }
+
+
+
+
+
+
+
+// Learn 10.1
+// function AlertData(){
+//     var $data = "Hello " + $(".fUllName").val();
+
+//     $("#test").append($data);
 // }
 
 
@@ -90,7 +101,7 @@
 // function AlertData(){
 //     var $data = "Hello " + $(".fUllName").val() + "<br>";
 
-//     $("span").append($data);
+//     $("#test").append($data);
 // }
 
 
@@ -103,7 +114,7 @@
 // Learn 12
 // function AlertData(){
 //     var $data = "Hello " + $(".fUllName").val() + "<br>";
-//     $("span").append($data);
+//     $("#test").append($data);
 
 //     $(".fUllName").val("");
 // }
@@ -120,7 +131,7 @@
 // Learn 13
 // function AlertData(){
 //     var $data = "Hello " + $(".fUllName").val() + "<br>";
-//     $("span").append($data);
+//     $("#test").append($data);
 //     $(".fUllName").val("");
 
 //     $(".fUllName").focus();
@@ -140,7 +151,7 @@
 // function AlertData(){
 //     var $data = "Hello " + $(".fUllName").val() + "<br>";
 
-//     $("span").prepend($data);
+//     $("#test").prepend($data);
 //     $(".fUllName").val("");
 //     $(".fUllName").focus();
 // }
@@ -161,7 +172,7 @@
 //     var $data = "<b>" + $(".fUllName").val() + "</b>";
 
 
-//     $("span").append($data);
+//     $("#test").append($data);
 //     $(".fUllName").val("");
 //     $(".fUllName").focus();
 // }
@@ -179,7 +190,7 @@
 //     var $data = "Hello <b>" + $(".fUllName").val() + "</b><br>";
 
 
-//     $("span").append($data);
+//     $("#test").append($data);
 //     $(".fUllName").val("");
 //     $(".fUllName").focus();
 // }
@@ -196,7 +207,7 @@
 //     var $data = "Hello <b>" + $(".fUllName").val() + "</b><br>";
 
 
-//     $("span").append($data);
+//     $("#test").append($data);
 //     $(".fUllName").val("");
 //     $(".fUllName").focus();
 // }
