@@ -1,27 +1,7 @@
-// Learn 03
-// function ShowDiv(){
-//     $("div").show();
-// }
-
-// function HideDiv(){
-//     $("div").hide();
-// }
-
-
-
-
-
-
-
-
-
 // Learn 04
-// function ShowDiv(){
-//     $(".divItem").show();
-// }
-
-// function HideDiv(){
-//     $(".divItem").hide();
+// function AlertData(){
+//     var $data = $("input").val();
+//     alert($data);
 // }
 
 
@@ -30,20 +10,11 @@
 
 
 
-
-
-
-
-
-
-
+//Back to HTML
 // Learn 05
-// function ShowDiv(){
-//     $(".red").show();
-// }
-
-// function HideDiv(){
-//     $(".red").hide();
+// function AlertData(){
+//     var $data = $("#fName").val();
+//     alert($data);
 // }
 
 
@@ -51,18 +22,13 @@
 
 
 
-
-
-
-
+//Back to HTML
 // Learn 06
-// function FadeInDiv(){
-//     $(".red").fadeIn();
+// function AlertData(){
+//     var $data = $(".fUllName").val();
+//     alert($data);
 // }
 
-// function FadeOutDiv(){
-//     $(".red").fadeOut();
-// }
 
 
 
@@ -72,29 +38,19 @@
 
 
 // Learn 07
-// function FadeInDiv(){
-//     $(".red").fadeIn("slow");
-// }
-
-// function FadeOutDiv(){
-//     $(".red").fadeOut("slow");
+// function AlertData(){
+//     var $data = "Hello " + $(".fUllName").val();
+//     alert($data);
 // }
 
 
 
 
 
-
-
-
-
-//Learn 08
-// function FadeInDiv(){
-//     $(".red").fadeIn(5000);
-// }
-
-// function FadeOutDiv(){
-//     $(".red").fadeOut(3000);
+// Learn 08
+// function AlertData(){
+//     var $data = "Hello " + $(".fUllName").val();
+//     alert($data);
 // }
 
 
@@ -103,21 +59,12 @@
 
 
 
+//Back to HTML
+// Learn 09
+// function AlertData(){
+//     var $data = "Hello " + $(".fUllName").val();
 
-
-//Learn 09
-// function FadeOutDiv(){
-//     $(".red").fadeOut(3000).fadeIn();
-// }
-
-
-
-
-
-
-// function Action(){
-//     // $("span.data.red[name='test']").hide();
-//     $("[name='test']").hide();
+//     $("span").html($data);
 // }
 
 
@@ -127,17 +74,233 @@
 
 
 
-// $("#test").on("click", function(){
-//     $("span").hide();
-// });
+// Learn 10
+// function AlertData(){
+//     var $data = "Hello " + $(".fUllName").val();
+
+//     $("span").append($data);
+// }
 
 
 
 
-$("button#test").on("click", function(){
-    $("span").hide();
-});
 
-$("button:not(#test)").on("click", function(){
-    $("span").show();
-});
+
+// Learn 11
+// function AlertData(){
+//     var $data = "Hello " + $(".fUllName").val() + "<br>";
+
+//     $("span").append($data);
+// }
+
+
+
+
+
+
+
+
+// Learn 12
+// function AlertData(){
+//     var $data = "Hello " + $(".fUllName").val() + "<br>";
+//     $("span").append($data);
+
+//     $(".fUllName").val("");
+// }
+
+
+
+
+
+
+
+
+
+
+// Learn 13
+// function AlertData(){
+//     var $data = "Hello " + $(".fUllName").val() + "<br>";
+//     $("span").append($data);
+//     $(".fUllName").val("");
+
+//     $(".fUllName").focus();
+// }
+
+
+
+
+
+
+
+
+
+
+
+// Learn 14
+// function AlertData(){
+//     var $data = "Hello " + $(".fUllName").val() + "<br>";
+
+//     $("span").prepend($data);
+//     $(".fUllName").val("");
+//     $(".fUllName").focus();
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+// Learn 15
+// function AlertData(){
+//     var $data = "<b>" + $(".fUllName").val() + "</b>";
+
+
+//     $("span").append($data);
+//     $(".fUllName").val("");
+//     $(".fUllName").focus();
+// }
+
+
+
+
+
+
+
+
+
+// Learn 16
+// function AlertData(){
+//     var $data = "Hello <b>" + $(".fUllName").val() + "</b><br>";
+
+
+//     $("span").append($data);
+//     $(".fUllName").val("");
+//     $(".fUllName").focus();
+// }
+
+
+
+
+
+
+
+
+// Learn 17
+// function AlertData(){
+//     var $data = "Hello <b>" + $(".fUllName").val() + "</b><br>";
+
+
+//     $("span").append($data);
+//     $(".fUllName").val("");
+//     $(".fUllName").focus();
+// }
+
+
+
+
+
+//Back to HTML
+// Learn 18
+// function SetOff(){
+//     $("img").attr("src", "off.gif");
+// }
+// function SetOn(){
+//     $("img").attr("src", "on.gif");
+// }
+
+
+
+
+
+
+
+//Back to HTML
+// Learn 19
+// function ChangeStyle(){
+//     $("p").css({
+//         "background-color": "yellow", 
+//     });
+// }
+
+
+
+
+
+
+
+
+// Learn 20
+// function ChangeStyle(){
+//     $("p").css({
+//         "background-color": "yellow",
+//         "font-size": "200%",
+//         "color" : "red", 
+//         "padding" : "40px",
+//         "border-radius" : "40px",
+//         "margin" : "5%",
+//         "border" : "5px solid black",
+//     });
+// }
+
+
+
+
+
+//Back to HTML
+// Learn 21
+// function ChangeStyle(){
+//     $("p").css({
+//         "background-color": "yellow",
+//         "font-size": "200%",
+//         "color" : "red", 
+//         "padding" : "40px",
+//         "border-radius" : "40px",
+//         "margin" : "5%",
+//         "border" : "5px solid black",
+//     });
+// }
+
+// function ResetStyle(){
+//     $("p").css({
+//         "background-color": "",
+//         "font-size": "",
+//         "color" : "", 
+//         "padding" : "",
+//         "border-radius" : "",
+//         "margin" : "",
+//         "border" : "",
+//     });
+// }
+
+
+
+
+
+//Back to HTML  
+// Learn 22
+// function Empty() {
+//     $("div").empty();
+// }
+// function Fill() {
+//     $("div").append("Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quaerat fuga optio ipsum, animi id labore voluptates");
+// }
+
+
+
+
+
+
+//Back to HTML  
+// Learn 23
+function RemoveIt() {
+    $("div").remove();
+}
+function AddId() {
+    $("div").append("<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quaerat fuga optio ipsum, animi id labore voluptates</div>");
+}
