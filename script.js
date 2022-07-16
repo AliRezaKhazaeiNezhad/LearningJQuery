@@ -298,9 +298,9 @@
 
 //Back to HTML  
 // Learn 23
-function RemoveIt() {
-    $("div").remove();
-}
-function AddId() {
-    $("div").append("<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quaerat fuga optio ipsum, animi id labore voluptates</div>");
-}
+// function RemoveIt() {
+//     $("div").remove();
+// }
+// function AddId() {
+//     $("div").append("<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quaerat fuga optio ipsum, animi id labore voluptates</div>");
+// }
